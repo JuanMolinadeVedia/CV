@@ -4,6 +4,8 @@ body {
     padding: 0;
 }
  header {
+    position: sticky;
+    top: 0;
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -15,7 +17,11 @@ body {
     border-radius: 50%;
     margin: 20px auto;
     display: block;
+    padding: 10px;
 }
+  .personal{
+    padding-bottom: 5px;
+  }    
 .capabilities {
   display: flex;
   justify-content: center;
@@ -31,6 +37,7 @@ body {
 .capability-text {
   display: flex;
   align-items: center;
+  padding-bottom: 20px;
 }
 .contact {
     text-align: center;
@@ -46,18 +53,25 @@ body {
 }
  .contact input, .contact textarea {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
  .contact input[type="submit"] {
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
 }
  .contact input[type="submit"]:hover {
     background-color: #666;
 }
+  .quokka{
+    padding-bottom: 20px;
+}
+
+  .social-links{
+    padding-bottom: 15px;
+  }
  h1 {
     text-align: center;
     font-size: 24px;
