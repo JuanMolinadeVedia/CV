@@ -1,3 +1,70 @@
-p {
-    color: rgb(42, 42, 42);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+ .imagen-perfil {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+.capabilities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.capabilities-logo {
+  width: 30px;
+  margin: 10px;
+  align-content: center;
+}
+.capability-text {
+  display: flex;
+  align-items: center;
+}
+ h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+ p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
   }
+ ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ li {
+    margin-bottom: 5px;
+}
+ a {
+    display: block;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ a:hover {
+    color: #666;
+}
