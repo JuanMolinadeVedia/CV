@@ -32,6 +32,32 @@ body {
   display: flex;
   align-items: center;
 }
+.contact {
+    text-align: center;
+    margin: 15px;
+}
+ .contact form {
+    display: inline-block;
+    text-align: center;
+}
+ .contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+ .contact input, .contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+ .contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+ .contact input[type="submit"]:hover {
+    background-color: #666;
+}
  h1 {
     text-align: center;
     font-size: 24px;
