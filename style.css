@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
 }
- header {
+
+header {
   position: sticky;
   top: 0;
   background-color: #333;
@@ -11,7 +12,8 @@ body {
   padding: 10px;
   text-align: center;
 }
- .profile-photo {
+
+.profile-photo {
   width: 200px;
   height: auto;
   border-radius: 50%;
@@ -19,46 +21,54 @@ body {
   display: block;
   padding: 10px;
 }
- .personal {
+
+.personal {
   padding-bottom: 5px;
 }
- .capabilities {
+
+.capabilities {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
 }
 
- .capabilities-logo {
+.capabilities-logo {
   width: 40px;
   margin: 10px;
   align-items: center;
 }
- .capability-text {
+
+.capability-text {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
   margin-left: 5px;
 }
- .contact {
+
+.contact {
   text-align: center;
   margin: 15px;
 }
- .contact form {
+
+.contact form {
   display: inline-block;
   text-align: center;
 }
- .contact label {
+
+.contact label {
   display: block;
   margin-bottom: 5px;
 }
- .contact input,
+
+.contact input,
 .contact textarea {
   width: 100%;
   margin-bottom: 5px;
   border-radius: 5px;
 }
- .contact input[type="submit"] {
+
+.contact input[type="submit"] {
   background-color: #333;
   color: #fff;
   border: none;
@@ -66,41 +76,49 @@ body {
   cursor: pointer;
   border-radius: 20px;
 }
- .contact input[type="submit"]:hover {
+
+.contact input[type="submit"]:hover {
   background-color: #666;
 }
- .quokka {
+
+.quokka {
   padding-bottom: 20px;
 }
 
- .social-links #2{
+.social-links #link-2 {
   padding-bottom: 15px;
 }
- h1 {
+
+h1 {
   text-align: center;
   font-size: 24px;
   margin-bottom: 10px;
 }
- p {
+
+p {
   text-align: center;
   font-size: 16px;
   margin-bottom: 20px;
 }
- h2 {
+
+h2 {
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
- ul {
+
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
- li {
+
+li {
   margin-bottom: 5px;
 }
- a {
+
+a {
   display: block;
   text-align: center;
   color: #333;
@@ -108,6 +126,7 @@ body {
   font-size: 18px;
   margin-bottom: 10px;
 }
- a:hover {
+
+a:hover {
   color: #666;
 }
