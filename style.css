@@ -4,8 +4,7 @@ body {
   padding: 0;
   background: linear-gradient(to bottom, #fefefe, #999999);
 }
-
-header {
+ header {
   position: sticky;
   top: 0;
   background-color: #333;
@@ -14,119 +13,31 @@ header {
   text-align: center;
 }
 
-.profile-photo {
-  width: 200px;
-  height: auto;
-  border-radius: 50%;
-  margin: 20px auto;
-  display: block;
-  padding: 10px;
-}
-
-.personal {
-  padding-bottom: 5px;
-}
-
-.capabilities {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-
-.capabilities-logo {
-  width: 40px;
-  margin: 10px;
-  align-items: center;
-}
-
-.capability-text {
-  display: flex;
-  align-items: center;
-  padding-bottom: 20px;
-  margin-left: 5px;
-}
-
-.contact {
-  text-align: center;
-  margin: 15px;
-}
-
-.contact form {
-  display: inline-block;
-  text-align: center;
-}
-
-.contact label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.contact input,
-.contact textarea {
-  width: 100%;
-  margin-bottom: 5px;
-  border-radius: 5px;
-  background-color: #d3d3d3;
-}
- .contact textarea{
-  border-radius: 7px;
-  margin-bottom: 5px;
-  background-color: #d3d3d3;
-  border-color: black;
-}
-
-.contact input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 10px;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-.contact input[type="submit"]:hover {
-  background-color: #666;
-}
-
-.quokka {
-  padding-bottom: 20px;
-}
-
-.social-links #link-2 {
-  padding-bottom: 15px;
-}
-
-h1 {
+ h1 {
   text-align: center;
   font-size: 24px;
   margin-bottom: 10px;
 }
-
-p {
+ p {
   text-align: center;
   font-size: 16px;
   margin-bottom: 20px;
 }
-
-h2 {
+ h2 {
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
-
-ul {
+ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
-
-li {
+ li {
   margin-bottom: 5px;
 }
-
-a {
+ a {
   display: block;
   text-align: center;
   color: #333;
@@ -134,7 +45,79 @@ a {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
-a:hover {
+ a:hover {
   color: #666;
 }
+ .profile-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+}
+ .personal {
+  padding-bottom: 5px;
+}
+ .capabilities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.capabilities-logo {
+  width: 60px;
+}
+ .contact {
+  text-align: center;
+  margin: 15px;
+}
+ .contact form {
+  display: inline-block;
+  text-align: center;
+}
+ .contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+ .contact input,
+.contact textarea {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+}
+ .contact textarea {
+  border-radius: 7px;
+  margin-bottom: 5px;
+  background-color: #d3d3d3;
+  border-color: black;
+}
+ .contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+ .contact input[type="submit"]:hover {
+  background-color: #666;
+}
+ .quokka {
+  padding-bottom: 20px;
+}
+ .social-links img {
+  padding-bottom: 15px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+ }
