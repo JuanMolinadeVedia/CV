@@ -67,6 +67,13 @@ header {
   width: 100%;
   margin-bottom: 5px;
   border-radius: 5px;
+  background-color: #d3d3d3;
+}
+ .contact textarea{
+  border-radius: 7px;
+  margin-bottom: 5px;
+  background-color: #d3d3d3;
+  border-color: black;
 }
 
 .contact input[type="submit"] {
